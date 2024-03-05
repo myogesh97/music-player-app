@@ -1,0 +1,22 @@
+/*------------------------------------------
+    Responsive Grid Media Queries - 1280, 1024, 768, 480
+     1280-1024   - desktop (default grid)
+     1024-768    - tablet landscape
+     768-480     - tablet 
+     480-less    - phone landscape & smaller
+  --------------------------------------------*/
+/* Portrait */
+@media screen and (orientation: portrait) {
+  /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation: landscape) {
+  /* Landscape styles here */
+}
+/* CSS for iPhone, iPad, and Retina Displays */
+/* Non-Retina */
+/* Retina */
+/* iPhone Portrait */
+/* iPhone Landscape */
+/* iPad Portrait */
+/* iPad Landscape *//*# sourceMappingURL=responsive.css.map */
