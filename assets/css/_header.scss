@@ -1,0 +1,53 @@
+header {
+    .navbar {
+        background-color: $secondaryColor;
+        padding: 1.6rem 0;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $whiteColor;
+                font-size: 1.5rem;
+                font-weight: bold;
+                padding: 0 1.8rem;
+                margin: 0 0.5rem;
+            }
+
+            &:first-child {
+                .nav-link {
+                    padding-left: 0;
+                }
+            }
+
+            &:last-child {
+                .nav-link {
+                    padding-right: 0;
+                }
+            }
+        }
+
+        .h-borderleft {
+            .nav-link {
+                position: relative;
+
+                &::before {
+                    content: "";
+                    width: 1px;
+                    height: 16px;
+                    border-left: 1px solid $whiteColor;
+                    left: 0;
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(0px, -50%);
+                }
+            }
+        }
+
+        .h-user-btn {
+            .nav-link {
+                color: #D9DADC;
+            }
+        }
+    }
+}

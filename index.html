@@ -6,19 +6,350 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Template</title>
+  <title>Music Player</title>
   <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" /> -->
   <!-- Required CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link rel="stylesheet" href="assets/fonts/helvetica-font/stylesheet.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
+  <!-- Header Section Starts -->
+  
     <header>
-test header content
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/site-icon.png" alt="site icon">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Premium</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+              <li class="nav-item h-user-btn h-borderleft">
+                <a class="nav-link" href="#">Sign up</a>
+              </li>
+              <li class="nav-item h-user-btn">
+                <a class="nav-link" href="#">Log in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+
+    <!-- Header Section Ends -->
+
+    <!-- Banner Section Starts -->
+
+    <section class="banner-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <h1>Get Premium free for 1 month</h1>
+            <h4>Just ₹119/month after. Debit and credit cards accepted. Cancel anytime.</h4>
+            <ul class="banner-btns">
+              <li>
+                <button type="button" class="btn">Get started</button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-border btn-light-border">See other plans</button>
+              </li>
+            </ul>
+            <p class="b-terms"><u>Terms and conditions apply.</u> 1 month free not available for users who have already tried Premium.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Banner Section Ends -->
+
+    <!-- Features Section Starts -->
+
+    <section class="features-section section-padding">
+      <div class="container">
+        <div class="section-title">
+          <h2>The power of Premium</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-3">
+            <div class="feature-box">
+              <figure>
+                <img src="assets/img/feature-1.png" alt="features img 1">
+              </figure>
+              <h6>Ad-free music listening</h6>
+              <p>Enjoy uninterrupted music.</p>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="feature-box">
+              <figure>
+                <img src="assets/img/feature-2.png" alt="features img 2">
+              </figure>
+              <h6>Offline playback</h6>
+              <p>Save your data by listening offline.</p>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="feature-box">
+              <figure>
+                <img src="assets/img/feature-3.png" alt="features img 3">
+              </figure>
+              <h6>Play everywhere</h6>
+              <p>Listen on your speakers, TV, and other favorite devices.</p>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="feature-box">
+              <figure>
+                <img src="assets/img/feature-4.png" alt="features img 4">
+              </figure>
+              <h6>Pay your way</h6>
+              <p>Prepay with Paytm, UPI, and more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section Ends -->
+
+    <!-- Plans Section Starts -->
+
+    <section class="plans-section section-padding pad-bottom-6">
+      <div class="container">
+        <div class="section-title">
+          <h2>Pick your Premium</h2>
+          <p>Listen without limits on your phone, speaker, and other devices.</p>
+          <img src="assets/img/payment-type.png" alt="payment methods">
+        </div>
+        <div class="row flex-Row">
+          <div class="col-xl-3">
+            <div class="plans-box-shell">
+              <div class="p-top-box">
+                <div class="plan-type">
+                  <span class="otp-plans">One-time plans available</span>
+                  <h4 class="plan-title">Mini</h4>
+                  <p class="plan-month-info">From ₹7/day</p>
+                  <p class="plan-account-info">1 account on mobile only</p>
+                </div>
+                <ul class="plan-description">
+                  <li><p>Ad-free music listening on mobile</p></li>
+                  <li><p>Group Session</p></li>
+                  <li><p>Download 30 songs on 1 mobile device</p></li>
+                </ul>
+                <div class="plan-btn">
+                  <button type="button" class="btn">View Plans</button>
+                </div>
+              </div>
+              <div class="p-bottom-box">
+                <p class="p-text"><u>Terms and conditions apply.</u></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="plans-box-shell">
+              <div class="p-top-box">
+                <div class="plan-type">
+                  <span class="offer-plan">1 month free</span>
+                  <span class="otp-plans">One-time plans available</span>
+                  <h4 class="plan-title">Individual</h4>
+                  <p class="plan-month-info">₹119/month after offer period</p>
+                  <p class="plan-account-info">1 account</p>
+                </div>
+                <ul class="plan-description">
+                  <li><p>Ad-free music listening</p></li>
+                  <li><p>Group Session</p></li>
+                  <li><p>Download 10k songs/device on 5 devices</p></li>
+                </ul>
+                <div class="plan-btn">
+                  <button type="button" class="btn">View Plans</button>
+                </div>
+              </div>
+              <div class="p-bottom-box">
+                <p class="p-text"><u>Terms and conditions apply.</u> 1 month free not available for users who have already tried Premium.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="plans-box-shell">
+              <div class="p-top-box">
+                <div class="plan-type">
+                  <span class="offer-plan">1 month free</span>
+                  <span class="otp-plans">One-time plans available</span>
+                  <h4 class="plan-title">Duo</h4>
+                  <p class="plan-month-info">₹149/month after offer period</p>
+                  <p class="plan-account-info">2 account</p>
+                </div>
+                <ul class="plan-description">
+                  <li><p>For couples who live together</p></li>
+                  <li><p>Ad-free music listening</p></li>
+                  <li><p>Group Session</p></li>
+                  <li><p>Download 10k songs/device, on 5 devices per account</p></li>
+                </ul>
+                <div class="plan-btn">
+                  <button type="button" class="btn">View Plans</button>
+                </div>
+              </div>
+              <div class="p-bottom-box">
+                <p class="p-text"><u>Terms and conditions apply.</u> 1 month free not available for users who have already tried Premium.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3">
+            <div class="plans-box-shell">
+              <div class="p-top-box">
+                <div class="plan-type">
+                  <span class="offer-plan">1 month free</span>
+                  <span class="otp-plans">One-time plans available</span>
+                  <h4 class="plan-title">Family</h4>
+                  <p class="plan-month-info">₹179/month after offer period</p>
+                  <p class="plan-account-info">Up to 6 accounts</p>
+                </div>
+                <ul class="plan-description">
+                  <li><p>For family who live together</p></li>
+                  <li><p>Block explicit music</p></li>
+                  <li><p>Ad-free music listening</p></li>
+                  <li><p>Group Session</p></li>
+                  <li><p>Download 10k songs/device on 5 devices</p></li>
+                </ul>
+                <div class="plan-btn">
+                  <button type="button" class="btn">View Plans</button>
+                </div>
+              </div>
+              <div class="p-bottom-box">
+                <p class="p-text"><u>Terms and conditions apply.</u> 1 month free not available for users who have already tried Premium.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cta-box">
+          <h6>Special discount for eligible students in university</h6>
+          <button type="button" class="btn btn-dark-border">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans Section Ends -->
+
+    <!-- Footer Section Starts -->
+
+    <footer class="footer-section section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-2">
+            <a class="f-site-icon" href="index.html">
+              <img src="assets/img/site-icon.png" alt="site icon">
+            </a>
+          </div>
+          <div class="col-xl-2">
+            <div class="footer-links">
+              <h6 class="f-title">Company</h6>
+              <ul class="f-link">
+                <li>
+                  <a href="#!">About</a>
+                </li>
+                <li>
+                  <a href="#!">Jobs</a>
+                </li>
+                <li>
+                  <a href="#!">For the Record</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2">
+            <div class="footer-links">
+              <h6 class="f-title">Communities</h6>
+              <ul class="f-link">
+                <li>
+                  <a href="#!">For Artists</a>
+                </li>
+                <li>
+                  <a href="#!">Developers</a>
+                </li>
+                <li>
+                  <a href="#!">Advertising</a>
+                </li>
+                <li>
+                  <a href="#!">Investors</a>
+                </li>
+                <li>
+                  <a href="#!">Vendors</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2">
+            <div class="footer-links">
+              <h6 class="f-title">Useful links</h6>
+              <ul class="f-link">
+                <li>
+                  <a href="#!">Support</a>
+                </li>
+                <li>
+                  <a href="#!">Web Player</a>
+                </li>
+                <li>
+                  <a href="#!">Free Mobile App</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <ul class="f-social-link">
+              <li>
+                <a href="#!">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#!">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row bottom-footer-box">
+          <div class="col-xl-8">
+            <ul class="f-other-links">
+              <li><a href="#!">Legal</a></li>
+              <li><a href="#!">Privacy Center</a></li>
+              <li><a href="#!">Privacy Policy</a></li>
+              <li><a href="#!">Cookies</a></li>
+              <li><a href="#!">About Ads</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-4">
+            <ul class="footer-marks">
+              <li class="f-location"><i class="fa-solid fa-earth-asia"></i> India (English)</li>
+              <li class="f-b-text">&#169; 2023 Spotify AB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section Ends-->
 
   <!-- Required JS -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>

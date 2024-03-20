@@ -1,0 +1,25 @@
+.features-section {
+    .feature-box {
+        text-align: center;
+        padding: 0 3.6rem;
+        figure {
+            margin: 0 auto 4rem;
+            height: 14.2rem;
+            width: 14.2rem;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: scale-down;
+            }
+        }
+        h6 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        p {
+            margin-top: 1rem;
+            font-size: 1.6rem;
+            font-weight: 300;
+        }
+    }
+}
