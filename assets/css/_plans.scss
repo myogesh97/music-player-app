@@ -1,0 +1,108 @@
+.plans-section.pad-bottom-6 {
+    padding-bottom: 6rem;
+}
+.plans-section {
+    background-color: $greyBg;
+
+    .plans-box-shell {
+        background-color: #fff;
+        border-radius: 8px;
+        -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.30);
+        -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.30);
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.30);
+
+        .p-top-box {
+            padding: 1.5rem;
+
+            .plan-type {
+                min-height: 17rem;
+            }
+
+            .offer-plan {
+                background-color: #0D72EA;
+                font-size: 1.3rem;
+                font-weight: bold;
+                border-radius: 6px;
+                border: 1px solid #0D72EA;
+                color: #fff;
+                padding: 0.5rem 1.3rem;
+                display: inline-block;
+                margin: 0 0 1rem;
+            }
+
+            .otp-plans {
+                display: inline-block;
+                border: 1px solid #0D72EA;
+                font-size: 1.4rem;
+                margin: 0 0 1rem;
+                font-weight: bold;
+                border-radius: 6px;
+                padding: 0.5rem 1.3rem;
+                color: #0D72EA;
+            }
+
+            .plan-title {
+                font-size: 2.4rem;
+                font-weight: bold;
+            }
+
+            .plan-month-info,
+            .plan-account-info {
+                font-size: 1.6rem;
+                margin: .2rem 0;
+                font-weight: 300;
+            }
+
+            .plan-description {
+                padding-left: 3rem;
+                border-top: 2px solid #CCCCCC;
+                padding-top: 1.4rem;
+                margin-top: 2rem;
+                min-height: 21rem;
+
+                li {
+                    margin: .6rem 0;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        height: 2.4rem;
+                        width: 2.4rem;
+                        position: absolute;
+                        left: -30px;
+                        background-image: url("../img/black-check.png");
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                    }
+
+                    p {
+                        font-size: 1.6rem;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+            .plan-btn {
+                margin-top: 2rem;
+
+                .btn {
+                    width: 100%;
+                }
+            }
+        }
+
+        .p-bottom-box {
+            padding: 0.5rem 1.5rem 1.5rem;
+
+            .p-text {
+                color: #535353;
+                font-size: 1.2rem;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .cta-box {
+        margin-top: 4rem;
+    }
+}
